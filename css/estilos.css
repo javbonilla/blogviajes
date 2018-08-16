@@ -1,0 +1,25 @@
+html
+{
+    box-sizing: border-box; /* Para que se mantengan anchos y altos, independientemente de paddin y margin */
+}
+
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header
+{
+    padding: 20px 0; /* 20px arriba y abajo, 0 a la izquierda y derecha */
+}
