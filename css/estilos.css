@@ -234,18 +234,32 @@ p.copyright
     padding: 20px 0;
     text-align: center;
     color: #ffffff;
+    font-size: 12px;
 }
 
 div.green-icon
 {
-	padding: 10px 0 10px 0;
-	width: auto;
+    text-align: center;
+    padding: 5px 0;
 }
 
-div.green-icon a img.green-tourism
+div.green-icon a 
+{
+    text-decoration: none;
+}
+
+#green-tourism-icon
 {
     width: 120px;
-	display: block;
-	margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#tourism-seal
+{
+    margin-left: 30px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: middle;
 }
 /** Footer - FIN **/
