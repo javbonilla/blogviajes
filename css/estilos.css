@@ -236,8 +236,16 @@ p.copyright
     color: #ffffff;
 }
 
-.green-icon a img
+div.green-icon
+{
+	padding: 10px 0 10px 0;
+	width: auto;
+}
+
+div.green-icon a img.green-tourism
 {
     width: 120px;
+	display: block;
+	margin: 0 auto;
 }
 /** Footer - FIN **/
